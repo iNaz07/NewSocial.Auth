@@ -1,0 +1,23 @@
+{
+    "addr": ":8080",
+    "timeout": 2,
+
+    "postgres": {
+        "user": "postgres",
+        "password": "password",
+        "host": "db",
+        "port": 5432,
+        "dbname": "auth"
+    },
+
+    "redis": {
+        "address": "redis:6379",
+        "password": "qwerty"
+    },
+
+    "token": {
+        "secret": "super secret code",
+        "ttl": 30
+    }
+
+}
